@@ -4,7 +4,7 @@ exports.config = {
   //seleniumAddress:'http://localhost:4444/wd/hub',
   suites: {
     //Data_Update: ['DataUpdateMain.js'],
-    Cashapp_14C: ['cashapp 14C prod sanity script.js'],
+    Cashapp_14C: ['cashapp 14C script.js'],
   },
 
   'capabilities': {
