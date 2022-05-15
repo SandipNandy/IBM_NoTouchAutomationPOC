@@ -1,5 +1,4 @@
 var XLSX = require('xlsx');
-//var workbook = XLSX.readFile('C:/Users/JahnaviTunuguntla/Desktop/Cashapps aut.xlsx');
 var workbook = XLSX.readFile('./cashapp 14C PROD SANITY excel.xlsx');
 var statusworkbook = XLSX.readFile('./Statusstamping for CA.xlsx');
 var statusstamping = statusworkbook.Sheets['Sheet1'];
