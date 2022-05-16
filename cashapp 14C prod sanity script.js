@@ -23,7 +23,6 @@ function FiletransferToFolder() {
     const fs = require('fs')
     const dir = 'IH/RPA2IW/IH/Input'
 
-    //const dir = 'C:/Users/06318O744/Documents/ActionLog/SanityAllModulesGit/CashApps-Automation-Oriflame/ibm-r2r-automation/IH/RPA2IW/IH/Input'
 
     var h = [], zipName, ZipNamePrefix = [], zipFileName = [];
     var files = fs.readdirSync(dir)
@@ -80,7 +79,6 @@ function FiletransferToFolder() {
                         else console.log('Successfully moved');
                     });
                 };
-                //moveFile('IH/RPA2IW/IH/Input/Cash_Apps_Summary-Summary_Panel-RHS.zip' , 'IH/RPA2IW/IH/Input/SERBIA');
                 moveFile('' + __dirname + '/IH/RPA2IW/IH/Input/Cash_Apps_Summary-Summary_Panel-RHS.zip', '' + __dirname + '/IH/RPA2IW/IH/Input/SERBIA');
 
             }
